@@ -1,0 +1,31 @@
+# Generated lab evidence and credentials
+loot/*
+!loot/.gitkeep
+
+# Local secrets, VPN configuration, and private keys
+.env
+.env.*
+!.env.example
+*.ovpn
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Local agent permissions/settings
+.claude/settings.local.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Target folders created at the repository root
+/[0-9]*.[0-9]*.[0-9]*.[0-9]*/
